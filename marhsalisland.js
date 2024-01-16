@@ -1,8 +1,8 @@
-let Negara = "marshall_islands";
+let Negara = "Marshall Islands";
 const benua = "Oceania";
-let populasi = 61988;
+let populasi = 61.988;
 const kepulauan = false;
-let bahasa = "marshallese_english";
+let bahasa = "Marshallese English";
 
 
 const txt = document.getElementById('txt');
@@ -14,6 +14,8 @@ function show() {
     populasi : ${populasi}
     Kepulauan : ${kepulauan}
     bahasa : ${bahasa}
+
+    negara ${Negara} adalah negara yang berada di benua ${benua}, dengan populasi sebanyak ${populasi} jiwa, bahasa nasional adalah bahasa ${bahasa}
     `)
 }
 
@@ -23,4 +25,7 @@ function show() {
     populasi : ${populasi}
     Kepulauan : ${kepulauan}
     bahasa : ${bahasa}
+
+    negara ${Negara} adalah negara yang berada di benua ${benua}, dengan populasi
+    sebanyak ${populasi} jiwa, bahasa nasional adalah bahasa ${bahasa}
     `
